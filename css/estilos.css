@@ -1,6 +1,6 @@
 /* Estilo general fuente */
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Montserrat", Arial, sans-serif;
   margin: 0;
   background-color: #eef3f8;
   text-align: center;
@@ -11,11 +11,43 @@ header {
   background-color: #0d3b66;
   color: white;
   text-align: center;
-  padding: 25px;
+  padding: 5px 20px;
 }
 
-header h1 {
+.titulo-principal {
   margin: 0;
+  line-height: 0.85;
+}
+
+.nombre {
+  display: block;
+  font-size: 6vw;
+  font-weight: 800;
+  letter-spacing: 0.8vw;
+  text-transform: uppercase;
+}
+
+.apellidos {
+  display: block;
+  font-size: 2vw;
+  font-weight: 300;
+  letter-spacing: 0.45vw;
+  text-transform: uppercase;
+  opacity: 0.85;
+  margin-top: 0px;
+}
+
+header p {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+/* Estilo general fuente */
+body {
+  font-family: "Montserrat", Arial, sans-serif;
+  margin: 0;
+  background-color: #eef3f8;
+  text-align: center;
 }
 
 /* Navegador */
@@ -145,4 +177,28 @@ footer {
 
 .btn-cv:hover {
   background-color: #1a252f;
+}
+
+/* Imagenes Skills */
+.skills {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.skill {
+  width: 80px;
+  text-align: center;
+}
+
+.skill img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.skill p {
+  margin-top: 8px;
+  font-size: 14px;
 }
