@@ -1,0 +1,148 @@
+/* Estilo general fuente */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #eef3f8;
+  text-align: center;
+}
+
+/* Cabecera */
+header {
+  background-color: #0d3b66;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+/* Navegador */
+nav {
+  background-color: #1d5fa7;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  flex: 1;
+}
+
+nav ul li a {
+  display: block;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  background-color: #3c82d6;
+}
+
+/* Contenedor */
+.contenedor {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+/* Secciones */
+section {
+  background-color: white;
+  margin-bottom: 25px;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-bottom: 2px solid #d6e4f0;
+}
+
+section h2 {
+  border-bottom: 2px solid #1d5fa7;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+/* Texto parrafos */
+section p {
+  max-width: 500px;
+  margin: 20px auto;
+  line-height: 1.5;
+}
+
+/* Listas */
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+section li {
+  margin-bottom: 6px;
+}
+
+/* Imagen */
+section img {
+  max-width: 350px;
+  width: 100%;
+}
+
+/* Video */
+iframe {
+  max-width: 100%;
+}
+
+/* Formulario */
+input,
+textarea {
+  width: 80%;
+  max-width: 400px;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+textarea {
+  height: 100px;
+}
+
+button {
+  background-color: #1d5fa7;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0d3b66;
+}
+
+/* Pie pagina */
+footer {
+  background-color: #0d3b66;
+  color: white;
+  padding: 12px;
+  margin-top: 20px;
+}
+
+/* Boton CV */
+.btn-cv {
+  background-color: #2c3e50;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 5px;
+  display: inline-block;
+}
+
+.btn-cv:hover {
+  background-color: #1a252f;
+}
