@@ -42,14 +42,6 @@ header p {
   margin-bottom: 0;
 }
 
-/* Estilo general fuente */
-body {
-  font-family: "Montserrat", Arial, sans-serif;
-  margin: 0;
-  background-color: #eef3f8;
-  text-align: center;
-}
-
 /* Navegador */
 nav {
   background-color: #1d5fa7;
