@@ -1,9 +1,16 @@
-/* Estilo general fuente */
+/* Fuente y body */
 body {
   font-family: "Montserrat", Arial, sans-serif;
   margin: 0;
   background-color: #eef3f8;
   text-align: center;
+   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main{
+  flex: 1;
 }
 
 /* Cabecera */
